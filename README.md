@@ -6,6 +6,8 @@ Part of [d8euAI8sMs](https://github.com/d8euAI8sMs) namespace. See [`learning` r
 
 Image segmentation using morphological analysis methods.
 
+![](ui.png)
+
 ## Status and Artifacts
 
 | pdf report | project |
