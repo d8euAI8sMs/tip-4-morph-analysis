@@ -185,7 +185,7 @@ namespace model
 
             for (size_t n = 0; n < p.count; ++n) {
                 size_t patt = rand() % 3;
-                double alpha = rand() / (RAND_MAX + 1.0);
+                double alpha = 0.5 + 0.5 * rand() / (RAND_MAX + 1.0);
                 double scale = 1 + 0.5 * (2 * rand() / (RAND_MAX + 1.0) - 1);
                 cv::Mat img = d.patterns[patt].mat.clone();
                 img *= alpha;
